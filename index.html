@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <section id="home">
+    <header>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Pizza <span>Hot</span></a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact US</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="container">
+        <div class="container-fluid pizza-background">
+            <div class="d-flex justify-content-center align-items-center vh-100 text-center text-white">
+                <div class="left">
+                    <h1>Welcome to Pizza World</h1>
+                    <p>Delicious pizzas delivered to your door</p>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--Menu Section-->
+    <section class="menu-section py-5" id="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h2>Pizzas</h2>
+                    <div class="menu-item">
+                       <div class="jumbotron text-center">
+                            <image src="pepperonipizza.jpg" class="image-fluid" alt="Pizza Image" style="max-width: 100%; height: auto;"></image>
+                            <h4>Pepperoni Pizza <span class="text-muted">320/-</span></h4>
+                            <p>Crispy crust, melted mozzarella, spicy pepperoni.</p>
+                            <a href="#" class="btn btn-primary btn-sm bg-dark btn-outline-dark text-light">Order Now</a>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="jumbotron text-center">
+                            <image src="margheritapizza.jpg" class="image-fluid" alt="Pizza Image" style="max-width: 90%; height: auto;"></image>
+                            <h4>Margherita Pizza <span class="text-muted">300/-</span></h4>
+                            <p>Classic tomato, fresh mozzarella, basil, and olive oil.</p>
+                            <a href="#" class="btn btn-primary btn-sm bg-dark btn-outline-dark text-light">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h2>Appetizers</h2>
+                    <div class="menu-item">
+                        <div class="jumbotron text-center">
+                            <image src="GarlicBread.jpg" class="image-fluid" alt="Pizza Image" style="max-width: 100%; height: auto;"></image>
+                            <h4>Garlic Bread <span class="text-muted">80/-</span></h4>
+                            <p>Buttery bread with garlic, herbs, and parmesan.</p>
+                            <a href="#" class="btn btn-primary btn-sm bg-dark btn-outline-dark text-light">Order Now</a>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="jumbotron text-center">
+                            <image src="chickenwings.jpg" class="image-fluid" alt="Pizza Image" style="max-width: 102%; height: auto;"></image>
+                            <h4>Chicken Wings <span class="text-muted">420/-</span></h4>
+                            <p>Spicy chicken wings served with ranch dip yummy and delicious</p>
+                            <a href="#" class="btn btn-primary btn-sm bg-dark btn-outline-dark text-light">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h2>Drinks & Desserts</h2>
+                    <div class="menu-item">
+                        <div class="jumbotron text-center">
+                            <image src="coke.jpg" class="image-fluid" alt="Pizza Image" style="max-width: 93%; height: auto;"></image>
+                            <h4>Soft Drinks <span class="text-muted"></span>60/-</h4>
+                            <p>Choose from Coke, Sprite, and more.</p>
+                            <a href="#" class="btn btn-primary btn-sm bg-dark btn-outline-dark text-light">Order Now</a>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="jumbotron text-center">
+                            <image src="chocolava.jpg" class="image-fluid" alt="Pizza Image" style="max-width: 100%; height: auto;"></image>
+                            <h4>Chocolate Lava Cake <span class="text-muted">60/-</span></h4>
+                            <p>Warm chocolate cake with a molten center.</p>
+                            <a href="#" class="btn btn-primary btn-sm bg-dark btn-outline-dark text-light">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container pt-3">
+            <h2 class="text-center" style="margin-top: 200px;">About Us</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="team.jpg" alt="Our Team" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-6">
+                    <h3>Our Story</h3>
+                    <p>Welcome to Pizza Place! We are passionate about crafting the perfect pizza using the freshest ingredients. Our journey began with a simple love for food and a dream to share our delicious recipes with the world.</p>
+                    <p>Our team is dedicated to providing you with the best dining experience possible. From classic favorites to innovative new flavors, we believe there’s a pizza for everyone!</p>
+                    <button id="learnMore" class="btn btn-primary">Learn More</button>
+                    <div id="moreInfo" class="mt-3" style="display: none;">
+                        <p>We use only organic ingredients sourced from local farms, ensuring quality in every bite. Join us for a meal, and experience the love and care that goes into each pizza.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container my-5">
+            <h2 class="text-center pt-3">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Get in Touch</h4>
+                    <p>If you have any questions, feel free to reach out to us by filling out the form below, and we'll get back to you as soon as possible.</p>
+                    <ul class="list-unstyled">
+                        <li><strong>Address:</strong> 123 Pizza Street, Flavor Town, NY 10001</li>
+                        <li><strong>Email:</strong> info@pizzaplace.com</li>
+                        <li><strong>Phone:</strong> +1 (555) 123-4567</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <form id="contactForm" class="needs-validation" novalidate>
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" class="form-control" id="name" required><br/>
+                            <div class="invalid-feedback">
+                                Please provide your name.
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" required><br/>
+                            <div class="invalid-feedback">
+                                Please provide a valid email address.
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
+                            <div class="invalid-feedback">
+                                Please enter your message.
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                    <div id="successMessage" class="alert alert-success mt-3" style="display: none;">
+                        Thank you! Your message has been sent successfully.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2024 Pizza World. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+    </section>
+</body>
+</html>
